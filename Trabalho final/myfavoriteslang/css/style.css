@@ -1,0 +1,125 @@
+/* 
+ESSA CLASSE NÃO SERVE DE NADA,
+APENAS PARA VOCÊS VEREM OS HEXAS
+DAS CORES DO LAYOUT 
+*/
+.cores{
+    color: #4A56F9;
+    color: #BE123C;
+    color: #1F2937;
+    color: #F1F5F9;
+    color: #64748B;
+    color: #3A5479
+}
+
+/*
+################### 
+################### 
+SEU CÓDIGO 
+DAQUI PARA BAIXO 
+##################
+##################
+*/
+.topo{
+    margin-top: 0px;
+    background-color: #F1F5F9;
+    display: flex;
+    padding: 30px;
+}
+
+.logo{
+    margin-top: 20px;
+    font-size: 28px;
+    margin-left: 250px;
+    
+    
+}
+
+.user{
+    margin: 10px;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 450px
+}
+
+.matricula{
+    padding: 5px;
+}
+
+.formulario input[type=text]{
+    margin-left: -12px;
+    padding: 1.3rem 7.5rem;
+    background-color: #64748B;
+    border: #64748B;
+    font-size: 24px;
+    font-size: 14px;
+    
+}
+
+input[type="text"]::placeholder {
+    color: #3A5479;
+    margin: 5px;
+    font-size: 16px;
+   }
+
+.formulario input[type=submit]{
+    background-color: #4A56F9;
+    border: #4A56F9;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 1.2rem 1.9rem;
+}
+
+  
+.container-container-main{
+    margin-left: 30%;
+}
+
+.materia{
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.materia h4{
+    font-size: 24px;
+}
+.nota{
+    font-size: 35px;
+    margin-left: 150px;
+    
+}
+li section:nth-child(2) {
+    width: 50%;
+    
+  }
+
+.nota li:nth-child(n+4){
+    color: #BE123C;
+}
+.notas li{
+    background-color: #F1F5F9;
+    display: flex;
+    padding: 2px;
+    margin: 8px;
+    width: 50%;
+    text-align: justify center;
+}
+
+.formulario{ 
+   margin: 20px;
+}
+
+.rodape{
+    color: #4A56F9;
+    font-size: 18px;
+
+
+    bottom: 0;
+        position: fixed;
+        width: 90%;
+        text-align: center; 
+}
+
+
