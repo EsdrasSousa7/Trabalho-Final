@@ -114,12 +114,8 @@ li section:nth-child(2) {
 .rodape{
     color: #4A56F9;
     font-size: 18px;
-
-
-    bottom: 0;
-        position: fixed;
-        width: 90%;
-        text-align: center; 
+    width: 90%;
+    text-align: center; 
 }
 
 
